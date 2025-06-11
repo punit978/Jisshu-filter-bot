@@ -18,9 +18,9 @@ API_HASH = environ.get('API_HASH', '585f48485cf7419844c398d5da226545')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8049817357:AAHrbtN_f7_NP8pHL_xCcVorVguP2ijrH7c')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5207748612').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '1002017490016'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002017490016'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002151439036').split()]
 #---------------------------------------------------------------
